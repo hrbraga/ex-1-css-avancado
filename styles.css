@@ -57,23 +57,13 @@ body {
     margin-top: 20px;
 }
 
-.card .card__nome {
-    color: black;
-    font-weight: 700;
-}
-
-.card__idade, .card__local {
+.card__idade, .card__local, .contador__tipo {
     color: var(--text-color);
-}
-
-.card__idade {
-    font-weight: 700;
 }
 
 hr{
     width: 100%;
 }
-
 
 .contagem-seguidores {
     display: flex;
@@ -84,19 +74,11 @@ hr{
     padding-bottom: 30px;
 }
 
-.contador-redes {
+.card__nome, .contador-redes, .card__idade {
     font-weight: 700;
+}
+
+.card__nome, .contador-redes {
     color: black;
 }
-
-.contador__tipo {
-    color: var(--text-color);
-}
-
-
-
-
-
-
-
 
